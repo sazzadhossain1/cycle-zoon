@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div>
-      <div className="navbar bg-base-100">
+    <div className="header-main-parent-div">
+      <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -29,65 +29,100 @@ const Header = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <Link to="/home">Home</Link>
+                <Link className="color" to="/home">
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link className="color" to="/about">
+                  About
+                </Link>
               </li>
               <li>
-                <Link to="/shop">Shop</Link>
+                <Link className="color" to="/shop">
+                  Shop
+                </Link>
               </li>
               <li>
-                <Link to="/gallery">Gallery</Link>
+                <Link className="color" to="/gallery">
+                  Gallery
+                </Link>
               </li>
               <li>
-                <Link to="/news">News</Link>
+                <Link className="color" to="/news">
+                  News
+                </Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link className="color" to="/contact">
+                  Contact
+                </Link>
               </li>
               <li>
-                <Link to="/login">Login</Link>
+                <Link className="color" to="/login">
+                  Login
+                </Link>
               </li>
               <li>
-                <Link to="/signUp">SignUp</Link>
+                <Link className="color" to="/signUp">
+                  SignUp
+                </Link>
               </li>
             </ul>
           </div>
-          <Link to="/home" className="btn btn-ghost normal-case text-xl">
-            Cycle ZzOoN
+          <Link
+            to="/home"
+            className="btn btn-ghost normal-case text-xl web-name"
+          >
+            Cycle Zz<span className="oo">Oo</span>N
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link to="/home">Home</Link>
+              <Link className="color" to="/home">
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link className="color" to="/about">
+                About
+              </Link>
             </li>
             <li>
-              <Link to="/shop">Shop</Link>
+              <Link className="color" to="/shop">
+                Shop
+              </Link>
             </li>
             <li>
-              <Link to="/gallery">Gallery</Link>
+              <Link className="color" to="/gallery">
+                Gallery
+              </Link>
             </li>
             <li>
-              <Link to="/news">News</Link>
+              <Link className="color" to="/news">
+                News
+              </Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link className="color" to="/contact">
+                Contact
+              </Link>
             </li>
             <li>
-              <Link to="/login">Login</Link>
+              <Link className="color" to="/login">
+                Login
+              </Link>
             </li>
             <li>
-              <Link to="/signUp">SignUp</Link>
+              <Link className="color" to="/signUp">
+                SignUp
+              </Link>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Shop New</a>
+          <Link className="shopNow btn ">Shop New</Link>
         </div>
       </div>
     </div>

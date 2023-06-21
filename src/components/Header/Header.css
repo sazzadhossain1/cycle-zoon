@@ -1,0 +1,21 @@
+.header-main-parent-div {
+  background-color: rgb(0, 0, 0);
+}
+.web-name {
+  font-size: 25px;
+  color: white;
+}
+.oo {
+  color: red;
+  font-size: 30px;
+}
+.color {
+  color: red;
+  font-size: 16px;
+}
+
+.shopNow {
+  background-color: red;
+  font-size: 16px;
+  font-weight: 700;
+}
