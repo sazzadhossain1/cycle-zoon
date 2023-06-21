@@ -7,6 +7,8 @@ import Shop from "./components/Shop/Shop";
 import Gellery from "./components/Gallery/Gellery";
 import News from "./components/News/News";
 import Contact from "./components/Contact/Contact";
+import Login from "./components/Login/Login";
+import SignUp from "./components/SignUp/SignUp";
 
 function App() {
   const router = createBrowserRouter([
@@ -41,6 +43,15 @@ function App() {
         {
           path: "/contact",
           element: <Contact></Contact>,
+        },
+
+        {
+          path: "/login",
+          element: <Login></Login>,
+        },
+        {
+          path: "/signUp",
+          element: <SignUp></SignUp>,
         },
       ],
     },
