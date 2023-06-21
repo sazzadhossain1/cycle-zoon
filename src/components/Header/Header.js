@@ -46,6 +46,12 @@ const Header = () => {
               <li>
                 <Link to="/contact">Contact</Link>
               </li>
+              <li>
+                <Link to="/login">Login</Link>
+              </li>
+              <li>
+                <Link to="/signUp">SignUp</Link>
+              </li>
             </ul>
           </div>
           <Link to="/home" className="btn btn-ghost normal-case text-xl">
@@ -71,6 +77,12 @@ const Header = () => {
             </li>
             <li>
               <Link to="/contact">Contact</Link>
+            </li>
+            <li>
+              <Link to="/login">Login</Link>
+            </li>
+            <li>
+              <Link to="/signUp">SignUp</Link>
             </li>
           </ul>
         </div>
