@@ -1,5 +1,9 @@
-.discover-parent-div {
+.discover-child-parent-div {
   background-image: url("https://onzo.progressionstudios.com/wp-content/uploads/2017/07/bike-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   height: 100vh;
   margin-top: -10px;
   position: relative;
@@ -18,4 +22,26 @@
   font-weight: 700;
   margin-top: 250px;
   margin-left: 530px;
+}
+.discover-grid-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+.common-div {
+  background-color: black;
+  color: white;
+  padding: 35px;
+}
+.itsBorder {
+  border-right: 1px solid white;
+}
+.number {
+  font-size: 30px;
+  font-weight: 500;
+  color: red;
+  margin-right: 10px;
+}
+.text {
+  font-size: 50px;
 }
