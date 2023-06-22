@@ -6,7 +6,7 @@ const Carousel = () => {
   return (
     <div>
       <div className="carousel w-full">
-        <div id="slide1" className="carousel-item relative w-full">
+        <div id="slide1" className=" carousel-item relative w-full">
           <img
             alt=""
             src="https://onzo.progressionstudios.com/wp-content/uploads/2017/07/slide-1.jpg"
@@ -28,7 +28,7 @@ const Carousel = () => {
             </a>
           </div>
         </div>
-        <div id="slide2" className="carousel-item relative w-full">
+        <div id="slide2" className=" carousel-item relative w-full">
           <img
             alt=""
             src="https://onzo.progressionstudios.com/wp-content/uploads/2017/07/slide-2.jpg"

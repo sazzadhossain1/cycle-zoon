@@ -72,7 +72,7 @@ const Header = () => {
           </div>
           <Link
             to="/home"
-            className="btn btn-ghost normal-case text-xl web-name"
+            className="cycle btn btn-ghost normal-case text-xl web-name"
           >
             Cycle Zz<span className="oo">Oo</span>N
           </Link>

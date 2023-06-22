@@ -27,3 +27,58 @@
   font-weight: 500;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 1150px) {
+  .carousel-text {
+    /* position: relative; */
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .all-new {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .carousel-text {
+    /* position: relative; */
+    margin-right: 0px;
+  }
+  .all-new {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .carousel-text {
+    /* position: relative; */
+    margin-right: 0px;
+  }
+  .lightest {
+    font-size: 16px;
+  }
+  .all-new {
+    font-size: 18px;
+  }
+  .learn-more {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .carousel-single-parent-div {
+    padding: 20px;
+  }
+  .carousel-text {
+    /* position: relative; */
+    margin-right: 0px;
+  }
+  .lightest {
+    font-size: 12px;
+  }
+  .all-new {
+    font-size: 15px;
+  }
+  .learn-more {
+    font-size: 10px;
+    margin-bottom: 50px;
+  }
+}
