@@ -1,0 +1,21 @@
+.discover-parent-div {
+  background-image: url("https://onzo.progressionstudios.com/wp-content/uploads/2017/07/bike-image.jpg");
+  height: 100vh;
+  margin-top: -10px;
+  position: relative;
+}
+.easily {
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 700px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.discover {
+  position: absolute;
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+  margin-top: 250px;
+  margin-left: 530px;
+}

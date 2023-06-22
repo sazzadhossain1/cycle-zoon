@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 
 const Carousel = () => {
   return (
-    <div>
-      <div className="carousel w-full">
-        <div id="slide1" className=" carousel-item relative w-full">
+    <div className="">
+      <div className="carousel w-full ">
+        <div id="slide1" className=" carousel-item relative w-full ">
           <img
             alt=""
             src="https://onzo.progressionstudios.com/wp-content/uploads/2017/07/slide-1.jpg"
-            className="w-full carousel-img"
+            className="w-full "
           />
           <div className="carousel-text-parent-div absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide4" className="btn btn-circle p">
@@ -28,11 +28,11 @@ const Carousel = () => {
             </a>
           </div>
         </div>
-        <div id="slide2" className=" carousel-item relative w-full">
+        <div id="slide2" className=" carousel-item relative w-full ">
           <img
             alt=""
             src="https://onzo.progressionstudios.com/wp-content/uploads/2017/07/slide-2.jpg"
-            className="w-full carousel-img"
+            className="w-full "
           />
           <div className="carousel-text-parent-div absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" className="btn btn-circle">

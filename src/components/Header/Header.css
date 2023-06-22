@@ -34,3 +34,22 @@
     font-weight: 700;
   }
 }
+@media screen and (max-width: 400px) {
+  .cycle {
+    font-size: 20px;
+  }
+  .shopNow {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cycle {
+    font-size: 18px;
+  }
+  .oo {
+    font-size: 16px;
+  }
+  .shopNow {
+    font-size: 12px;
+  }
+}
