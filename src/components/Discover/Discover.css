@@ -45,3 +45,125 @@
 .text {
   font-size: 50px;
 }
+@media screen and (max-width: 1450px) {
+  /* .discover-child-parent-div {
+    position: relative;
+  } */
+  .easily {
+    /* position: absolute; */
+    margin-left: 600px;
+  }
+  .discover {
+    margin-left: 450px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  /* .discover-child-parent-div {
+    position: relative;
+  } */
+  .easily {
+    /* position: absolute; */
+    margin-left: 500px;
+  }
+  .discover {
+    margin-left: 350px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  /* .discover-child-parent-div {
+    position: relative;
+  } */
+  .easily {
+    /* position: absolute; */
+    margin-left: 400px;
+  }
+  .discover {
+    margin-left: 250px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* .discover-child-parent-div {
+    position: relative;
+  } */
+  .easily {
+    /* position: absolute; */
+    margin-left: 300px;
+  }
+  .discover {
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* .discover-child-parent-div {
+    position: relative;
+  } */
+  .easily {
+    /* position: absolute; */
+    margin-left: 150px;
+  }
+  .discover {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* .discover-child-parent-div {
+    position: relative;
+  } */
+  .easily {
+    /* position: absolute; */
+    margin-left: 140px;
+  }
+  .discover {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 550px) {
+  /* .discover-child-parent-div {
+    position: relative;
+  } */
+  .easily {
+    /* position: absolute; */
+    margin-left: 100px;
+  }
+  .discover {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+  /* .discover-child-parent-div {
+    position: relative;
+  } */
+  .easily {
+    /* position: absolute; */
+    margin-left: 50px;
+  }
+  .discover {
+    margin-left: 5px;
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .discover-child-parent-div {
+    position: relative;
+  }
+  .easily {
+    position: absolute;
+    margin-left: 0px;
+  }
+  .discover {
+    margin-left: 0px;
+    font-size: 35px;
+    margin-top: 270px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .discover-grid-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1px;
+  }
+  .itsBorder {
+    border-right: none;
+  }
+}
