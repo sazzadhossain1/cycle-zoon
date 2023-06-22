@@ -1,0 +1,29 @@
+.carousel-img {
+  height: 75%;
+}
+.carousel-text-parent-div {
+  align-items: center;
+}
+.carousel-text {
+  /* position: relative; */
+  margin-right: 550px;
+}
+.lightest {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+.all-new {
+  color: white;
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.learn-more {
+  background-color: red;
+  padding: 12px;
+  color: white;
+  font-weight: 500;
+  border-radius: 10px;
+}
