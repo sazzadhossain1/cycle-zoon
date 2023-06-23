@@ -1,0 +1,7 @@
+.features-parent-div {
+  background-image: url("https://onzo.progressionstudios.com/wp-content/uploads/2017/07/feature-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
