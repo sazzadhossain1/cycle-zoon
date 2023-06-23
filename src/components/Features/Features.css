@@ -4,3 +4,29 @@
   background-position: center;
   background-size: cover;
 }
+
+.features-heading {
+  font-size: 35px;
+  margin: 30px;
+}
+
+.features-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.flex-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-img-logo {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.cart-p-header {
+  font-size: 20px;
+  font-weight: 500;
+}

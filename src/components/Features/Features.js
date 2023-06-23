@@ -8,12 +8,13 @@ const Features = () => {
       <div className="blank-div"></div>
       <div className="features-grid-div">
         <div>
-          <div>
+          <div className="flex-div">
             <img
+              className="features-img-logo"
               src="https://cdn-icons-png.flaticon.com/512/126/126472.png"
               alt=""
             />
-            <p>All Weather Conditions</p>
+            <p className="cart-p-header">All Weather Conditions</p>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
@@ -21,12 +22,13 @@ const Features = () => {
           </p>
         </div>
         <div>
-          <div>
+          <div className="flex-div">
             <img
+              className="features-img-logo"
               src="https://cdn.iconscout.com/icon/free/png-512/free-low-battery-5-474981.png?f=avif&w=256"
               alt=""
             />
-            <p>All Weather Conditions</p>
+            <p className="cart-p-header">All Weather Conditions</p>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
@@ -34,12 +36,13 @@ const Features = () => {
           </p>
         </div>
         <div>
-          <div>
+          <div className="flex-div">
             <img
+              className="features-img-logo"
               src="https://thumbs.dreamstime.com/b/settings-icon-gear-icon-vector-gear-symbol-illustration-web-sites-our-mobile-settings-icon-gear-icon-vector-gear-symbol-151065055.jpg"
               alt=""
             />
-            <p>All Weather Conditions</p>
+            <p className="cart-p-header">All Weather Conditions</p>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
@@ -47,12 +50,13 @@ const Features = () => {
           </p>
         </div>
         <div>
-          <div>
+          <div className="flex-div">
             <img
+              className="features-img-logo"
               src="https://static.vecteezy.com/system/resources/thumbnails/002/290/601/small/wifi-isolated-icon-black-flat-free-vector.jpg"
               alt=""
             />
-            <p>All Weather Conditions</p>
+            <p className="cart-p-header">All Weather Conditions</p>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
@@ -60,12 +64,13 @@ const Features = () => {
           </p>
         </div>
         <div>
-          <div>
+          <div className="flex-div">
             <img
+              className="features-img-logo"
               src="https://thumbs.dreamstime.com/b/circular-arrow-circle-arrow-icon-rotation-restart-twist-tur-turn-concept-button-royalty-free-vector-illustration-81814479.jpg"
               alt=""
             />
-            <p>All Weather Conditions</p>
+            <p className="cart-p-header">All Weather Conditions</p>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
@@ -73,12 +78,13 @@ const Features = () => {
           </p>
         </div>
         <div>
-          <div>
+          <div className="flex-div">
             <img
+              className="features-img-logo"
               src="https://img.uxwing.com/wp-content/themes/uxwing/download/hand-gestures/like-icon.svg"
               alt=""
             />
-            <p>All Weather Conditions</p>
+            <p className="cart-p-header">All Weather Conditions</p>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
