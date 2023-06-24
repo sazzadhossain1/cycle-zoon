@@ -10,9 +10,18 @@
   font-size: 50px;
   font-weight: 500;
   color: white;
+  margin-bottom: 50px;
 }
 
 .gallery-oo {
   color: red;
   font-size: 65px;
+}
+
+.gallery-grid-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 75%;
+  gap: 20px;
+  margin: auto;
 }
