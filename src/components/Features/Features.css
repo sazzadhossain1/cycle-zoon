@@ -7,17 +7,31 @@
 
 .features-heading {
   font-size: 35px;
-  margin: 30px;
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 155px;
+}
+
+.blank-div {
+  width: 50px;
+  height: 2px;
+  background-color: red;
+  margin-left: 155px;
+  margin-bottom: 50px;
 }
 
 .features-grid-div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+  width: 50%;
+  margin-left: 100px;
 }
 .flex-div {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .features-img-logo {
@@ -29,4 +43,21 @@
 .cart-p-header {
   font-size: 20px;
   font-weight: 500;
+}
+.features-paragraph {
+  text-align: left;
+  width: 90%;
+  margin-left: 55px;
+}
+
+.blank {
+  height: 200px;
+}
+
+@media screen and (max-width: 900px) {
+  .features-grid-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 75%;
+  }
 }
