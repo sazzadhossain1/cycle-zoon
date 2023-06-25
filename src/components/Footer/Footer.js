@@ -42,15 +42,44 @@ const Footer = () => {
         <div>
           <h1 className="footer-section-heading">RECENT NEWS</h1>
           <div className="blank-footer-div"></div>
-          <div className="book-img-text-div">
-            <img
-              className="book-logo"
-              src="https://w7.pngwing.com/pngs/669/871/png-transparent-document-book-page-line-book-text-paper-page.png"
-              alt=""
-            />
-            <p>Downhill: Taking a Ride in Mountains</p>
+          <div>
+            <div className="book-img-text-div">
+              <img
+                className="book-logo"
+                src="https://w7.pngwing.com/pngs/669/871/png-transparent-document-book-page-line-book-text-paper-page.png"
+                alt=""
+              />
+              <p>Downhill: Taking a Ride in Mountains</p>
+            </div>
+            <p className="date">June 25, 2017</p>
+            <div className="book-img-text-div">
+              <img
+                className="book-logo"
+                src="https://w7.pngwing.com/pngs/669/871/png-transparent-document-book-page-line-book-text-paper-page.png"
+                alt=""
+              />
+              <p>Downhill: Taking a Ride in Mountains</p>
+            </div>
+            <p className="date">June 25, 2017</p>
+            <div className="book-img-text-div">
+              <img
+                className="book-logo"
+                src="https://w7.pngwing.com/pngs/669/871/png-transparent-document-book-page-line-book-text-paper-page.png"
+                alt=""
+              />
+              <p>Downhill: Taking a Ride in Mountains</p>
+            </div>
+            <p className="date">June 25, 2017</p>
+            <div className="book-img-text-div">
+              <img
+                className="book-logo"
+                src="https://w7.pngwing.com/pngs/669/871/png-transparent-document-book-page-line-book-text-paper-page.png"
+                alt=""
+              />
+              <p>Downhill: Taking a Ride in Mountains</p>
+            </div>
+            <p className="date">June 25, 2017</p>
           </div>
-          <p className="date">June 25, 2017</p>
         </div>
         <div>
           <h1 className="footer-section-heading">INSTAGRAM FEED</h1>
@@ -83,6 +112,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="blank-footer-full-width-div"></div>
+      <h3 className="email">sazzadtomal1@gmail.com 2023</h3>
     </div>
   );
 };

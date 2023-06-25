@@ -19,7 +19,7 @@
   height: 1px;
   width: 50px;
   margin-bottom: 40px;
-  background-color: aliceblue;
+  background-color: rgb(93, 96, 99);
 }
 .book-img-text-div {
   display: flex;
@@ -42,9 +42,21 @@
 }
 .date {
   margin-left: 35px;
+  margin-bottom: 25px;
 }
 .photo-grid-div {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+}
+
+.blank-footer-full-width-div {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(112, 110, 110);
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.email {
+  padding: 30px;
 }
