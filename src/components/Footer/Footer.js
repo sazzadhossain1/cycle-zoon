@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-grid-parent-div">
         <div>
           <h3 className="footer-section-heading">ABOUT Cycle ZzOoN</h3>
-          <div></div>
+          <div className="blank-footer-div"></div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
             quos dolorem qui distinctio rem nihil optio repudiandae deserunt,
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
         <div>
           <h1 className="footer-section-heading">RECENT NEWS</h1>
-          <div></div>
+          <div className="blank-footer-div"></div>
           <div className="book-img-text-div">
             <img
               className="book-logo"
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
         <div>
           <h1 className="footer-section-heading">INSTAGRAM FEED</h1>
-          <div></div>
+          <div className="blank-footer-div"></div>
           <div className="photo-grid-div">
             <img
               src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2020/04/andres-jasso-RQqhVKHXa-k-unsplash.jpg"
