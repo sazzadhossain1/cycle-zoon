@@ -1,0 +1,17 @@
+.discoverDetailsPage-backGround-Photo-div {
+  background: rgba(0, 0, 19, 0.9)
+    url("https://149357172.v2.pressablecdn.com/wp-content/themes/onzo-progression/images/page-title.jpg");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-blend-mode: darken;
+}
+.shop {
+  font-size: 70px;
+  color: white;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 770px;
+}

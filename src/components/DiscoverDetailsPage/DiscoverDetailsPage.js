@@ -7,7 +7,9 @@ const DiscoverDetailsPage = () => {
   console.log(singleData);
   return (
     <div>
-      <h1>This is discover Details Page</h1>
+      <div className="discoverDetailsPage-backGround-Photo-div">
+        <h2 className="shop">SHOP</h2>
+      </div>
     </div>
   );
 };
