@@ -23,20 +23,20 @@ const DiscoverDetailsPage = () => {
       </div>
       <div className="discover-details-grid">
         <div>
-          <img src={imgOne} alt="" />
-          <div>
-            <img src={smallImgOne} alt="" />
-            <img src={smallImgTwo} alt="" />
-            <img src={smallImgThree} alt="" />
-            <img src={smallImgFour} alt="" />
+          <img className="img-one" src={imgOne} alt="" />
+          <div className="smallImg-div">
+            <img className="small-img" src={smallImgOne} alt="" />
+            <img className="small-img" src={smallImgTwo} alt="" />
+            <img className="small-img" src={smallImgThree} alt="" />
+            <img className="small-img" src={smallImgFour} alt="" />
           </div>
         </div>
         <div>
           <h2 to="/home" className="discover-details-title-name   ">
             Cycle Zz<span className="oo">Oo</span>N
           </h2>
-          <p>{paragraph}</p>
-          <p>{price}</p>{" "}
+          <p className="paragraph">{paragraph}</p>
+          <p className="price">{price}</p>{" "}
         </div>
       </div>
     </div>
