@@ -1,8 +1,9 @@
 import React from "react";
 import "./Discover.css";
-import { Link } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 
-const Discover = () => {
+const Discover = ({ data }) => {
+  console.log(data);
   return (
     <div>
       <div className="discover-child-parent-div">
