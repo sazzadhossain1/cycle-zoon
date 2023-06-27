@@ -9,7 +9,6 @@ import News from "./components/News/News";
 import Contact from "./components/Contact/Contact";
 import Login from "./components/Login/Login";
 import SignUp from "./components/SignUp/SignUp";
-import Discover from "./components/Discover/Discover";
 
 function App() {
   const router = createBrowserRouter([

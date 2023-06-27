@@ -12,9 +12,19 @@ const Home = () => {
   return (
     <div>
       <Carousel></Carousel>
-      {getData.map((data) => (
-        <Discover data={data} key={data.id}></Discover>
-      ))}
+      <div>
+        <div className="discover-child-parent-div">
+          <div>
+            <h3 className="easily">EASILY CUSTOMIZABLE</h3>
+            <h1 className="discover">Discover The Cycle ZzOon</h1>
+          </div>
+        </div>
+        <div className="discover-grid-div">
+          {getData.map((data) => (
+            <Discover data={data} key={data.id}></Discover>
+          ))}
+        </div>
+      </div>
 
       <Features></Features>
       <Gellery></Gellery>
