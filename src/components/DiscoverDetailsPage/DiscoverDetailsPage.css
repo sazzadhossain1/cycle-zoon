@@ -15,3 +15,12 @@
   margin-top: 150px;
   margin-left: 770px;
 }
+
+.discover-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.discover-details-title-name {
+  font-size: 30px;
+  font-weight: 500;
+}
