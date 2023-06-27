@@ -9,6 +9,7 @@ import News from "./components/News/News";
 import Contact from "./components/Contact/Contact";
 import Login from "./components/Login/Login";
 import SignUp from "./components/SignUp/SignUp";
+import DiscoverDetailsPage from "./components/DiscoverDetailsPage/DiscoverDetailsPage";
 
 function App() {
   const router = createBrowserRouter([
@@ -19,14 +20,14 @@ function App() {
         {
           path: "/",
           loader: async () => {
-            return fetch("http://localhost:5000/cycleData");
+            return fetch("https://cycle-zoon-two-server.vercel.app/cycleData/");
           },
           element: <Home></Home>,
         },
         {
           path: "/home",
           loader: async () => {
-            return fetch("http://localhost:5000/cycleData");
+            return fetch("https://cycle-zoon-two-server.vercel.app/cycleData/");
           },
           element: <Home></Home>,
         },
@@ -58,6 +59,15 @@ function App() {
         {
           path: "/signUp",
           element: <SignUp></SignUp>,
+        },
+        {
+          path: "/discoverDetailsPage/:id",
+          loader: async ({ params }) => {
+            return fetch(
+              `https://cycle-zoon-two-server.vercel.app/cycleData/${params.id}`
+            );
+          },
+          element: <DiscoverDetailsPage></DiscoverDetailsPage>,
         },
       ],
     },
