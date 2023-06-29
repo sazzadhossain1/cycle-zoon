@@ -28,7 +28,13 @@ const Home = () => {
 
       <Features></Features>
       <Gellery></Gellery>
-      <CustomerReviews></CustomerReviews>
+      <div className="customer-review-parent-div">
+        <h3 className="testimonials">TESTIMONIALS</h3>
+        <h2 className="reviews-heading">CUSTOMER REVIEWS</h2>
+        {getData[0].Reviews.map((review) => (
+          <CustomerReviews key={review.id} review={review}></CustomerReviews>
+        ))}
+      </div>
     </div>
   );
 };
