@@ -21,8 +21,8 @@ const DiscoverDetailsPage = () => {
       <div className="discoverDetailsPage-backGround-Photo-div">
         <h2 className="shop">SHOP</h2>
       </div>
-      <div className="discover-details-grid">
-        <div>
+      <div className="discover-details-grid ">
+        <div className="mx-auto">
           <img className="img-one" src={imgOne} alt="" />
           <div className="smallImg-div">
             <img className="small-img" src={smallImgOne} alt="" />
@@ -31,7 +31,7 @@ const DiscoverDetailsPage = () => {
             <img className="small-img" src={smallImgFour} alt="" />
           </div>
         </div>
-        <div>
+        <div className="discover-details-text-div">
           <h2 to="/home" className="discover-details-title-name   ">
             Cycle Zz<span className="oo">Oo</span>N
           </h2>

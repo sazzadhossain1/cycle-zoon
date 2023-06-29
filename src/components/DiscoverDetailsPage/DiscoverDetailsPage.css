@@ -20,6 +20,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 20px;
+  gap: 40px;
   width: 60%;
   margin: auto;
   text-align: left;
@@ -35,6 +36,7 @@
   display: flex;
   gap: 10px;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 .discover-details-title-name {
   font-size: 30px;
@@ -45,4 +47,89 @@
 
 .paragraph {
   color: rgb(109, 109, 109);
+  font-weight: 500;
+}
+.price {
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1500px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+  .shop {
+    position: absolute;
+    margin-left: 650px;
+  }
+  .discover-details-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .smallImg-div {
+    margin-bottom: 300px;
+  }
+  .discover-details-text-div {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 650px;
+  }
+
+  .paragraph {
+    margin-bottom: 20px;
+    width: 75%;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+  .shop {
+    position: absolute;
+    margin-left: 600px;
+  }
+  .discover-details-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .smallImg-div {
+    margin-bottom: 300px;
+  }
+  .discover-details-text-div {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 650px;
+  }
+
+  .paragraph {
+    margin-bottom: 20px;
+    width: 75%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+  .shop {
+    position: absolute;
+    margin-left: 550px;
+  }
+  .discover-details-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .smallImg-div {
+    margin-bottom: 300px;
+  }
+  .discover-details-text-div {
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 650px;
+  }
+
+  .paragraph {
+    margin-bottom: 20px;
+    width: 75%;
+  }
 }
