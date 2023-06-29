@@ -10,6 +10,7 @@
   margin-bottom: 50px;
   box-shadow: 1px 10px 10px rgb(199, 193, 193);
   border-radius: 10px;
+  text-align: left;
 }
 
 .review-flex-div {
@@ -17,8 +18,16 @@
   align-items: center;
   margin-top: 20px;
 }
+.description {
+  margin-top: 20px;
+}
 
 .review-name {
   color: red;
+  font-weight: 500;
+  font-size: 18px;
+}
+.review-customer {
+  font-size: 14px;
   font-weight: 500;
 }
