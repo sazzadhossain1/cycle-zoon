@@ -1,1 +1,24 @@
+.review-img {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
 
+.review-single-div {
+  background-color: rgb(247, 246, 245);
+  padding: 40px;
+  margin-bottom: 50px;
+  box-shadow: 1px 10px 10px rgb(199, 193, 193);
+  border-radius: 10px;
+}
+
+.review-flex-div {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.review-name {
+  color: red;
+  font-weight: 500;
+}

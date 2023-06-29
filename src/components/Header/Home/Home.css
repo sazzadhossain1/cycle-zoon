@@ -8,6 +8,8 @@
   margin-top: -10px;
   position: relative;
 }
+
+/* / review / */
 .customer-review-parent-div {
   background-image: url("https://onzo.progressionstudios.com/wp-content/uploads/2017/07/review-bg.jpg");
   background-repeat: no-repeat;
@@ -24,4 +26,12 @@
   font-size: 50px;
   margin-bottom: 20px;
   font-weight: 700;
+}
+
+.review-gie-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 50%;
+  margin: auto;
 }
