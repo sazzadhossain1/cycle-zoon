@@ -133,3 +133,330 @@
     width: 75%;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+  .shop {
+    position: absolute;
+    margin-left: 500px;
+  }
+  .discover-details-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .smallImg-div {
+    margin-bottom: 300px;
+  }
+  .discover-details-text-div {
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 110px;
+  }
+
+  .paragraph {
+    margin-bottom: 20px;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+  .shop {
+    position: absolute;
+    margin-left: 450px;
+  }
+  .discover-details-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .smallImg-div {
+    margin-bottom: 300px;
+  }
+  .discover-details-text-div {
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 70px;
+  }
+
+  .paragraph {
+    margin-bottom: 20px;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+  .shop {
+    position: absolute;
+    margin-left: 370px;
+  }
+  .discover-details-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .smallImg-div {
+    margin-bottom: 300px;
+  }
+  .discover-details-text-div {
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 25px;
+  }
+
+  .paragraph {
+    margin-bottom: 20px;
+    width: 75%;
+  }
+}
+@media screen and (max-width: 786px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+  .shop {
+    position: absolute;
+    margin-left: 370px;
+  }
+  .discover-details-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .smallImg-div {
+    margin-bottom: 400px;
+  }
+  .discover-details-text-div {
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 25px;
+  }
+
+  .paragraph {
+    margin-bottom: 20px;
+    width: 75%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+  .shop {
+    position: absolute;
+    margin-left: 250px;
+  }
+  .discover-details-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .smallImg-div {
+    margin-bottom: 300px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .small-img {
+    width: 100%;
+  }
+  .discover-details-text-div {
+    position: absolute;
+    margin-top: 2000px;
+    margin-left: 25px;
+  }
+
+  .paragraph {
+    margin-bottom: 20px;
+    width: 75%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+
+  .discover-details-text-div {
+    position: absolute;
+    margin-top: 1950px;
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 625px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+
+  .discover-details-text-div {
+    position: absolute;
+    margin-top: 1900px;
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+  .smallImg-div {
+    margin-bottom: 400px;
+  }
+
+  .discover-details-text-div {
+    position: absolute;
+    margin-top: 1830px;
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 556px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+  .smallImg-div {
+    margin-bottom: 400px;
+  }
+
+  .discover-details-text-div {
+    position: absolute;
+    margin-top: 1700px;
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+  .smallImg-div {
+    margin-bottom: 520px;
+  }
+
+  .discover-details-text-div {
+    position: absolute;
+    margin-top: 1600px;
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+  .shop {
+    position: absolute;
+    margin-left: 120px;
+  }
+  .smallImg-div {
+    margin-bottom: 520px;
+  }
+
+  .discover-details-text-div {
+    position: absolute;
+    margin-top: 1400px;
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+  .shop {
+    position: absolute;
+    margin-left: 120px;
+  }
+  .smallImg-div {
+    margin-bottom: 520px;
+  }
+
+  .discover-details-text-div {
+    position: absolute;
+    margin-top: 1300px;
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+  .shop {
+    position: absolute;
+    margin-left: 120px;
+    font-size: 40px;
+  }
+
+  .discover-details-text-div {
+    position: absolute;
+    margin-top: 1250px;
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 325px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+  .shop {
+    position: absolute;
+    margin-left: 110px;
+    font-size: 30px;
+  }
+
+  .discover-details-text-div {
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+
+  .shop {
+    position: absolute;
+    margin-left: 110px;
+    font-size: 30px;
+  }
+  .smallImg-div {
+    margin-bottom: 600px;
+  }
+  .discover-details-text-div {
+    position: absolute;
+    margin-top: 920px;
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+
+  .shop {
+    position: absolute;
+    margin-left: 110px;
+    font-size: 30px;
+  }
+  .smallImg-div {
+    margin-bottom: 600px;
+  }
+  .discover-details-text-div {
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .discoverDetailsPage-backGround-Photo-div {
+    position: relative;
+  }
+
+  .shop {
+    position: absolute;
+    margin-left: 110px;
+    font-size: 30px;
+  }
+  .smallImg-div {
+    margin-bottom: 600px;
+  }
+  .discover-details-text-div {
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 25px;
+  }
+}
