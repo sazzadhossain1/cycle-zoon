@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./SignUp.css";
+import { AuthContext } from "../context/UseContext";
 
 const SignUp = () => {
+  const { user } = useContext(AuthContext);
+  console.log(user);
   const handleSignUpSigning = (event) => {
     event.preventDefault();
     const form = event.target;

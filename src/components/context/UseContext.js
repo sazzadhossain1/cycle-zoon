@@ -4,8 +4,15 @@ import { getAuth } from "firebase/auth";
 
 export const AuthContext = createContext();
 const auth = getAuth(app);
-const UseContext = () => {
-  return <div></div>;
+
+const UseContext = ({ children }) => {
+  const user = {
+    name: "Sazzad Hossain Tomal",
+  };
+  const authInfo = { user };
+  return (
+    <AuthContext.Provider value={authInfo}>{children}</AuthContext.Provider>
+  );
 };
 
 export default UseContext;
