@@ -2,7 +2,7 @@ import React from "react";
 import "./SignUp.css";
 
 const SignUp = () => {
-  const handlesignUpSigning = (event) => {
+  const handleSignUpSigning = (event) => {
     event.preventDefault();
     const form = event.target;
     const name = form.name.value;
@@ -17,7 +17,7 @@ const SignUp = () => {
         <div className=" mx-auto signup-div p-5">
           <h1 className="sign-head">SignUp</h1>
           <h4 className="start-text">Get started with us today!</h4>
-          <form onSubmit={handlesignUpSigning} className="card-body  mx-auto">
+          <form onSubmit={handleSignUpSigning} className="card-body  mx-auto">
             <div className="form-control mx-auto">
               <label className="label">
                 <span className="label-text">Your Name</span>
