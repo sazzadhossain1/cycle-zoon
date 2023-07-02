@@ -2,13 +2,22 @@ import React from "react";
 import "./SignUp.css";
 
 const SignUp = () => {
+  const handlesignUpSigning = (event) => {
+    event.preventDefault();
+    const form = event.target;
+    const name = form.name.value;
+    const email = form.email.value;
+    const password = form.password.value;
+    const confirmPassword = form.confirmPassword.value;
+    console.log(name, email, password, confirmPassword);
+  };
   return (
     <div className="signUp-parent-div ">
       <div className="p-10">
         <div className=" mx-auto signup-div p-5">
           <h1 className="sign-head">SignUp</h1>
           <h4 className="start-text">Get started with us today!</h4>
-          <form className="card-body  mx-auto">
+          <form onSubmit={handlesignUpSigning} className="card-body  mx-auto">
             <div className="form-control mx-auto">
               <label className="label">
                 <span className="label-text">Your Name</span>
