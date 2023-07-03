@@ -1,6 +1,7 @@
 import React, { useContext, useState } from "react";
 import "./SignUp.css";
 import { AuthContext } from "../context/UseContext";
+import { Link } from "react-router-dom";
 
 const SignUp = () => {
   const { createUser } = useContext(AuthContext);
@@ -35,6 +36,7 @@ const SignUp = () => {
         console.log(user);
         setError("");
         setSuccess(true);
+        form.reset();
       })
       .catch((error) => {
         console.log(error);
@@ -109,6 +111,9 @@ const SignUp = () => {
             )}
             <h1 style={{ color: "white" }} className="m-5">
               Already have an account?{" "}
+              <Link style={{ color: "blue" }} to="/login">
+                Please Login
+              </Link>
             </h1>
 
             <div className="  sign-up-btn ">
