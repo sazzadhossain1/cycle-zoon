@@ -1,10 +1,12 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import "./SignUp.css";
 import { AuthContext } from "../context/UseContext";
 
 const SignUp = () => {
-  const { user } = useContext(AuthContext);
-  console.log(user);
+  const { createUser } = useContext(AuthContext);
+
+  const [error, setError] = useState();
+  // console.log(createUser);
   const handleSignUpSigning = (event) => {
     event.preventDefault();
     const form = event.target;
@@ -13,6 +15,21 @@ const SignUp = () => {
     const password = form.password.value;
     const confirmPassword = form.confirmPassword.value;
     console.log(name, email, password, confirmPassword);
+
+    // email password validation //
+    if (password !== confirmPassword) {
+      return;
+    }
+
+    // create user by Email and Password //
+    createUser(email, password)
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   };
   return (
     <div className="signUp-parent-div ">
