@@ -6,6 +6,7 @@ const SignUp = () => {
   const { createUser } = useContext(AuthContext);
 
   const [error, setError] = useState();
+  const [success, setSuccess] = useState(false);
   // console.log(createUser);
   const handleSignUpSigning = (event) => {
     event.preventDefault();
@@ -18,6 +19,12 @@ const SignUp = () => {
 
     // email password validation //
     if (password !== confirmPassword) {
+      setError("Password Not Match");
+      return;
+    }
+
+    if (password.length < 8) {
+      setError("please input at least 8 characters");
       return;
     }
 
@@ -26,6 +33,8 @@ const SignUp = () => {
       .then((result) => {
         const user = result.user;
         console.log(user);
+        setError("");
+        setSuccess(true);
       })
       .catch((error) => {
         console.log(error);
@@ -94,7 +103,10 @@ const SignUp = () => {
                 />
               </label>
             </div>
-
+            <p style={{ color: "red" }}>{error}</p>
+            {success && (
+              <p style={{ color: "greenyellow" }}>User Created successfully</p>
+            )}
             <h1 style={{ color: "white" }} className="m-5">
               Already have an account?{" "}
             </h1>
