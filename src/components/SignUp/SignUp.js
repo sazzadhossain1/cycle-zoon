@@ -4,7 +4,7 @@ import { AuthContext } from "../context/UseContext";
 import { Link } from "react-router-dom";
 
 const SignUp = () => {
-  const { createUser } = useContext(AuthContext);
+  const { createUser, signInWithGoogle } = useContext(AuthContext);
 
   const [error, setError] = useState();
   const [success, setSuccess] = useState(false);
@@ -39,6 +39,21 @@ const SignUp = () => {
         form.reset();
       })
       .catch((error) => {
+        console.log(error);
+      });
+  };
+
+  // signIn with Google //
+  const handleGoogleSignIn = () => {
+    signInWithGoogle()
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+        setError("");
+        setSuccess(true);
+      })
+      .catch((error) => {
+        setError(error.message);
         console.log(error);
       });
   };
@@ -120,7 +135,9 @@ const SignUp = () => {
               <button className="">SignUp</button>
             </div>
           </form>
-          <button className="  sign-up-btn ">SignIn With Google</button>
+          <button onClick={handleGoogleSignIn} className="  sign-up-btn ">
+            SignIn With Google
+          </button>
         </div>
       </div>
     </div>
