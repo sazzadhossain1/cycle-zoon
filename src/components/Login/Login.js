@@ -1,20 +1,32 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Login.css";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../context/UseContext";
 
 const Login = () => {
+  const { signInUser } = useContext(AuthContext);
+
   const handleLogin = (event) => {
     event.preventDefault();
     const from = event.target;
     const email = from.email.value;
     const password = from.password.value;
     console.log(email, password);
+
+    signInUser(email, password)
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   };
   return (
     <div className="signUp-parent-div ">
       <div className="p-10">
         <div className=" mx-auto signup-div p-5">
-          <h1 className="sign-head">SignUp</h1>
+          <h1 className="sign-head">Login</h1>
           <h4 className="start-text">Get started with us today!</h4>
           <form onSubmit={handleLogin} className="card-body  mx-auto">
             <div className="form-control mx-auto">
@@ -54,7 +66,7 @@ const Login = () => {
             </h1>
 
             <div className="  sign-up-btn ">
-              <button className="">SignUp</button>
+              <button className="">Login</button>
             </div>
           </form>
           <button className="  sign-up-btn ">SignIn With Google</button>
