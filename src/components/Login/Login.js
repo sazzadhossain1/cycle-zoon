@@ -1,10 +1,13 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import "./Login.css";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../context/UseContext";
 
 const Login = () => {
   const { signInUser } = useContext(AuthContext);
+
+  const [error, setError] = useState("");
+  const [success, setSuccess] = useState(false);
 
   const handleLogin = (event) => {
     event.preventDefault();
@@ -17,9 +20,14 @@ const Login = () => {
       .then((result) => {
         const user = result.user;
         console.log(user);
+        setError("");
+        setSuccess(true);
+        from.reset();
       })
       .catch((error) => {
         console.log(error);
+        setError(error.message);
+        setSuccess(false);
       });
   };
   return (
@@ -65,6 +73,10 @@ const Login = () => {
               </Link>
             </h1>
 
+            <p style={{ color: "red" }}>{error}</p>
+            {success && (
+              <p style={{ color: "greenyellow" }}>User Login Successfully</p>
+            )}
             <div className="  sign-up-btn ">
               <button className="">Login</button>
             </div>
