@@ -3,13 +3,20 @@ import "./Login.css";
 import { Link } from "react-router-dom";
 
 const Login = () => {
+  const handleLogin = (event) => {
+    event.preventDefault();
+    const from = event.target;
+    const email = from.email.value;
+    const password = from.password.value;
+    console.log(email, password);
+  };
   return (
     <div className="signUp-parent-div ">
       <div className="p-10">
         <div className=" mx-auto signup-div p-5">
           <h1 className="sign-head">SignUp</h1>
           <h4 className="start-text">Get started with us today!</h4>
-          <form className="card-body  mx-auto">
+          <form onSubmit={handleLogin} className="card-body  mx-auto">
             <div className="form-control mx-auto">
               <label className="label">
                 <span className="label-text">Your Email</span>
