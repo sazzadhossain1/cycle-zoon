@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../context/UseContext";
 
 const Header = () => {
+  const { user } = useContext(AuthContext);
+  console.log(user);
   return (
     <div className="header-main-parent-div">
       <div className="navbar">
@@ -122,6 +125,9 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
+          <h1 style={{ color: "greenyellow", marginRight: "100px" }}>
+            {user?.displayName}
+          </h1>
           <Link className="shopNow btn ">Shop New</Link>
         </div>
       </div>

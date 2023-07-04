@@ -4,19 +4,21 @@ import { AuthContext } from "../context/UseContext";
 import { Link } from "react-router-dom";
 
 const SignUp = () => {
-  const { createUser, signInWithGoogle } = useContext(AuthContext);
+  const { createUser, signInWithGoogle, updateUserProfile, setUser } =
+    useContext(AuthContext);
 
   const [error, setError] = useState();
   const [success, setSuccess] = useState(false);
   // console.log(createUser);
   const handleSignUpSigning = (event) => {
     event.preventDefault();
+
     const form = event.target;
     const name = form.name.value;
     const email = form.email.value;
     const password = form.password.value;
     const confirmPassword = form.confirmPassword.value;
-    console.log(name, email, password, confirmPassword);
+    // console.log(name, email, password, confirmPassword);
 
     // email password validation //
     if (password !== confirmPassword) {
@@ -33,10 +35,11 @@ const SignUp = () => {
     createUser(email, password)
       .then((result) => {
         const user = result.user;
-        console.log(user);
+        // console.log(user);
         setError("");
         setSuccess(true);
         form.reset();
+        handleUpdateUserProfile(name);
       })
       .catch((error) => {
         console.log(error);
@@ -54,6 +57,22 @@ const SignUp = () => {
       })
       .catch((error) => {
         setError(error.message);
+        console.log(error);
+      });
+  };
+
+  // get User name function and show user name in the ui nav bar //
+  const handleUpdateUserProfile = (name) => {
+    console.log(name);
+    const profile = {
+      displayName: name,
+    };
+    updateUserProfile(profile)
+      .then(() => {
+        console.log(profile, "Get The user Name");
+        setUser(profile);
+      })
+      .catch((error) => {
         console.log(error);
       });
   };

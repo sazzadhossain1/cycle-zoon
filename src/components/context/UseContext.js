@@ -1,11 +1,13 @@
-import React, { createContext } from "react";
+import React, { createContext, useEffect, useState } from "react";
 import app from "../../firebase/firebase.init";
 import {
   GoogleAuthProvider,
   createUserWithEmailAndPassword,
   getAuth,
+  onAuthStateChanged,
   signInWithEmailAndPassword,
   signInWithPopup,
+  updateProfile,
 } from "firebase/auth";
 
 export const AuthContext = createContext();
@@ -15,10 +17,8 @@ const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
 
 const UseContext = ({ children }) => {
-  const user = {
-    name: "Sazzad Hossain Tomal",
-  };
-
+  const [user, setUser] = useState(null);
+  console.log(user);
   // create user by Email and Password //
   const createUser = (email, password) => {
     return createUserWithEmailAndPassword(auth, email, password);
@@ -34,7 +34,31 @@ const UseContext = ({ children }) => {
   const signInUser = (email, password) => {
     return signInWithEmailAndPassword(auth, email, password);
   };
-  const authInfo = { user, createUser, signInWithGoogle, signInUser };
+
+  // user profile name display in ui //
+  const updateUserProfile = (profile) => {
+    console.log(profile);
+    return updateProfile(auth.currentUser, profile);
+  };
+
+  // get current User //
+  useEffect(() => {
+    const unSubScribe = onAuthStateChanged(auth, (currentUser) => {
+      if (currentUser === null) {
+        console.log(currentUser);
+        setUser(currentUser);
+      }
+    });
+    return () => unSubScribe();
+  }, []);
+  const authInfo = {
+    user,
+    setUser,
+    createUser,
+    signInWithGoogle,
+    signInUser,
+    updateUserProfile,
+  };
   return (
     <AuthContext.Provider value={authInfo}>{children}</AuthContext.Provider>
   );
