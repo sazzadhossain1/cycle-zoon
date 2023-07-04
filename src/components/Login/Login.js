@@ -5,6 +5,7 @@ import { AuthContext } from "../context/UseContext";
 
 const Login = () => {
   const { signInUser } = useContext(AuthContext);
+  const { signInWithGoogle } = useContext(AuthContext);
 
   const [error, setError] = useState("");
   const [success, setSuccess] = useState(false);
@@ -23,6 +24,22 @@ const Login = () => {
         setError("");
         setSuccess(true);
         from.reset();
+      })
+      .catch((error) => {
+        console.log(error);
+        setError(error.message);
+        setSuccess(false);
+      });
+  };
+
+  // signIn With Google //
+  const handleGoogleSigning = () => {
+    signInWithGoogle()
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+        setSuccess(true);
+        setError("");
       })
       .catch((error) => {
         console.log(error);
@@ -81,7 +98,9 @@ const Login = () => {
               <button className="">Login</button>
             </div>
           </form>
-          <button className="  sign-up-btn ">SignIn With Google</button>
+          <button onClick={handleGoogleSigning} className="  sign-up-btn ">
+            SignIn With Google
+          </button>
         </div>
       </div>
     </div>
