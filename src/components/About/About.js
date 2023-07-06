@@ -4,7 +4,11 @@ import "./About.css";
 const About = () => {
   return (
     <div>
-      <h1>About</h1>
+      <div className="about-background-parent-div">
+        <h3>
+          About Zz<span className="oo">Oo</span>N
+        </h3>
+      </div>
     </div>
   );
 };

@@ -19,7 +19,7 @@ const provider = new GoogleAuthProvider();
 
 const UseContext = ({ children }) => {
   const [user, setUser] = useState(null);
-  console.log(user);
+
   // create user by Email and Password //
   const createUser = (email, password) => {
     return createUserWithEmailAndPassword(auth, email, password);
