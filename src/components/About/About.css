@@ -4,4 +4,43 @@
   background-position: center;
   background-size: cover;
   height: 50vh;
+  padding: 100px;
+}
+.about-title {
+  font-size: 50px;
+  font-weight: 500;
+  color: white;
+}
+
+.introduction {
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 100px;
+}
+.embedded {
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.about-first-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 75%;
+  margin: auto;
+}
+.about-left-text-div {
+  text-align: left;
+  margin: auto;
+}
+.about-right-video-div {
+  margin: auto;
+}
+.about-left-heading {
+  font-size: 25px;
+  color: red;
+}
+.about-left-paragraph {
+  color: rgb(122, 122, 122);
+  margin-bottom: 25px;
 }
