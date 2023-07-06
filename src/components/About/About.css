@@ -44,3 +44,22 @@
   color: rgb(122, 122, 122);
   margin-bottom: 25px;
 }
+
+/* responsive start */
+@media screen and (max-width: 1250px) {
+  .about-first-grid-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+  .about-left-text-div {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .video {
+    width: auto;
+  }
+}

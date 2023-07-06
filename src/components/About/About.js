@@ -35,6 +35,7 @@ const About = () => {
         </div>
         <div className="about-right-video-div">
           <iframe
+            className="video"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/T3wAwHrF7d0"
