@@ -4,7 +4,7 @@ import { AuthContext } from "../context/UseContext";
 import { Link } from "react-router-dom";
 
 const SignUp = () => {
-  const { createUser, signInWithGoogle, updateUserProfile, setUser } =
+  const { createUser, signInWithGoogle, updateUserProfile } =
     useContext(AuthContext);
 
   const [error, setError] = useState();
@@ -70,7 +70,6 @@ const SignUp = () => {
     updateUserProfile(profile)
       .then(() => {
         console.log(profile, "Get The user Name");
-        setUser(profile);
       })
       .catch((error) => {
         console.log(error);

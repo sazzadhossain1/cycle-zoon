@@ -4,8 +4,16 @@ import { Link } from "react-router-dom";
 import { AuthContext } from "../context/UseContext";
 
 const Header = () => {
-  const { user } = useContext(AuthContext);
+  const { user, logOutUser } = useContext(AuthContext);
   console.log(user);
+
+  const handleLogOUt = () => {
+    logOutUser()
+      .then(() => {
+        console.log("LogOUt Successfully");
+      })
+      .catch((error) => console.log(error));
+  };
   return (
     <div className="header-main-parent-div">
       <div className="navbar">
@@ -61,16 +69,25 @@ const Header = () => {
                   Contact
                 </Link>
               </li>
-              <li>
-                <Link className="color" to="/login">
-                  Login
-                </Link>
-              </li>
-              <li>
-                <Link className="color" to="/signUp">
-                  SignUp
-                </Link>
-              </li>
+
+              {user?.uid ? (
+                <button onClick={handleLogOUt} className="color">
+                  LogOut
+                </button>
+              ) : (
+                <>
+                  <li>
+                    <Link className="color" to="/login">
+                      Login
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="color" to="/signUp">
+                      SignUp
+                    </Link>
+                  </li>
+                </>
+              )}
             </ul>
           </div>
           <Link
@@ -112,16 +129,26 @@ const Header = () => {
                 Contact
               </Link>
             </li>
-            <li>
-              <Link className="color" to="/login">
-                Login
-              </Link>
-            </li>
-            <li>
-              <Link className="color" to="/signUp">
-                SignUp
-              </Link>
-            </li>
+
+            {user?.uid ? (
+              <button onClick={handleLogOUt} className="color">
+                LogOut
+              </button>
+            ) : (
+              <>
+                {" "}
+                <li>
+                  <Link className="color" to="/login">
+                    Login
+                  </Link>
+                </li>
+                <li>
+                  <Link className="color" to="/signUp">
+                    SignUp
+                  </Link>
+                </li>
+              </>
+            )}
           </ul>
         </div>
         <div className="navbar-end">
