@@ -63,10 +63,57 @@
 .featured {
   color: white;
   font-size: 60px;
+  margin-bottom: 40px;
+}
+.second-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 75%;
+  margin: auto;
+  gap: 50px;
+}
+.about-second-text-div {
+  text-align: left;
+}
+.cycle-zoon {
+  font-size: 50px;
+  color: white;
+  margin-top: 75px;
+}
+
+.about-blank-div {
+  background-color: gray;
+  height: 1px;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.about-price {
+  color: chartreuse;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.about-paragraph {
+  color: coral;
+  width: 80%;
+}
+
+.about-cycle-img {
+  width: 550px;
+}
+.about-selet {
+  background-color: aliceblue;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: 500;
+  border-radius: 50px;
+  margin-top: 20px;
 }
 /* ========================= */
 
 /* responsive start */
+
+/* first part */
 @media screen and (max-width: 1250px) {
   .about-first-grid-div {
     display: grid;
@@ -82,5 +129,26 @@
 @media screen and (max-width: 600px) {
   .video {
     width: auto;
+  }
+}
+
+/* second part */
+@media screen and (max-width: 1200px) {
+  .second-grid-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-second-text-div {
+    width: 100%;
+    margin-left: 100px;
+  }
+  .about-cycle-img {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .about-second-text-div {
+    width: 100%;
+    margin-left: 50px;
   }
 }

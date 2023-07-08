@@ -52,21 +52,22 @@ const About = () => {
         <h4 className="choose">CHOOSE A MODEL</h4>
         <h1 className="featured">FEATURED BIKE</h1>
         <div className="second-grid-div">
-          <div>
-            <h3>Cycle ZzOon Starter S</h3>
+          <div className="about-second-text-div">
+            <h3 className="cycle-zoon">Cycle ZzOon Starter </h3>
             <div className="about-blank-div"></div>
-            <p className="price">$1,700</p>
-            <p>
+            <p className="about-price">$1,700</p>
+            <p className="about-paragraph">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Asperiores veritatis quo voluptatibus commodi! Illum, rem adipisci
               expedita ab iure eligendi animi! Repellendus rerum beatae
               doloribus doloremque explicabo adipisci consequuntur sunt omnis
               enim sequi, maiores ab cum vel odio dolores dolorum.
             </p>
-            <button>SELET OPTIONS</button>
+            <button className="about-selet">SELET OPTIONS</button>
           </div>
           <div>
             <img
+              className="about-cycle-img"
               src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/bike.png"
               alt=""
             />
