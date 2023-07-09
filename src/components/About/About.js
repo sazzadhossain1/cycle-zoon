@@ -80,9 +80,9 @@ const About = () => {
         <h1 className="our-powerful-header">Our Powerful Features</h1>
         <div className="about-powerful-grid-div">
           <div>
-            <h3>POWERFUL FEATURES</h3>
-            <h2>Cycle ZzOoN MAKES IT EASY</h2>
-            <p>
+            <h3 className="features-title">POWERFUL FEATURES</h3>
+            <h2 className="powerful-cycle-header">Cycle ZzOoN MAKES IT EASY</h2>
+            <p className="powerful-paragraph">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Perspiciatis, ex. Mollitia unde necessitatibus repellendus eaque
               eius officia quibusdam.
@@ -105,9 +105,9 @@ const About = () => {
             />
           </div>
           <div>
-            <h3>OPTIMIZED PERFORMANCE</h3>
-            <h2>STAND OUT</h2>
-            <p>
+            <h3 className="features-title">OPTIMIZED PERFORMANCE</h3>
+            <h2 className="powerful-cycle-header">STAND OUT</h2>
+            <p className="powerful-paragraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
               exercitationem magnam sapiente! Nisi recusandae quae corporis iste
               fugiat.
