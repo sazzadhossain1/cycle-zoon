@@ -108,8 +108,34 @@
   font-weight: 500;
   border-radius: 50px;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 /* ========================= */
+
+/* About Powerful features part start */
+.our-powerful-header {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 50px;
+  font-weight: 500;
+}
+.about-powerful-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  text-align: left;
+  width: 65%;
+  margin: auto;
+  gap: 20px;
+}
+
+.about-powerful-img {
+  width: 500px;
+}
+.mt {
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
 
 /* responsive start */
 

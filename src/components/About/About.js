@@ -74,6 +74,47 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      {/*  */}
+      <div>
+        <h1 className="our-powerful-header">Our Powerful Features</h1>
+        <div className="about-powerful-grid-div">
+          <div>
+            <h3>POWERFUL FEATURES</h3>
+            <h2>Cycle ZzOoN MAKES IT EASY</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Perspiciatis, ex. Mollitia unde necessitatibus repellendus eaque
+              eius officia quibusdam.
+            </p>
+          </div>
+          <div>
+            <img
+              className="about-powerful-img"
+              src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-5-1024x768.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="about-powerful-grid-div mt">
+          <div>
+            <img
+              className="about-powerful-img"
+              src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-4-768x576.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <h3>OPTIMIZED PERFORMANCE</h3>
+            <h2>STAND OUT</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              exercitationem magnam sapiente! Nisi recusandae quae corporis iste
+              fugiat.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
