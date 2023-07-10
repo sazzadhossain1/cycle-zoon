@@ -117,7 +117,7 @@ const About = () => {
         </div>
       </div>
       {/* product gallery */}
-      <div>
+      <div className="about-product-parent-gallery">
         <div>
           <h3>PRODUCT GALLERY</h3>
           <h2>Cycle ZzOon IMAGE GRID GALLERY</h2>
