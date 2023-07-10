@@ -117,41 +117,49 @@ const About = () => {
         </div>
       </div>
       {/* product gallery */}
-      <div className="about-product-parent-gallery">
-        <div>
-          <h3 className="gallery-title">PRODUCT GALLERY</h3>
-          <h2 className="about-cycle-zoon-gallery-heading">
-            Cycle ZzOon IMAGE GRID GALLERY
-          </h2>
-          <button className="view-more">
-            <Link>View More</Link>
-          </button>
-        </div>
-        <div className="about-product-gallery-img-div">
-          <img
-            src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-600x450.jpg"
-            alt=""
-          />
-          <img
-            src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-6-600x450.jpg"
-            alt=""
-          />
-          <img
-            src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-5-600x450.jpg"
-            alt=""
-          />
-          <img
-            src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-3-600x450.jpg"
-            alt=""
-          />
-          <img
-            src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-4-600x450.jpg"
-            alt=""
-          />
-          <img
-            src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-600x450.jpg"
-            alt=""
-          />
+      <div className="about-product-main-parent-container-div">
+        <div className="about-product-parent-gallery">
+          <div className="about-product-text-div">
+            <h3 className="gallery-title">PRODUCT GALLERY</h3>
+            <h2 className="about-cycle-zoon-gallery-heading">
+              Cycle ZzOon IMAGE GRID GALLERY
+            </h2>
+            <button className="view-more">
+              <Link>View More</Link>
+            </button>
+          </div>
+          <div className="about-product-gallery-img-div">
+            <img
+              className="product-img"
+              src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-600x450.jpg"
+              alt=""
+            />
+            <img
+              className="product-img"
+              src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-6-600x450.jpg"
+              alt=""
+            />
+            <img
+              className="product-img"
+              src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-5-600x450.jpg"
+              alt=""
+            />
+            <img
+              className="product-img"
+              src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-3-600x450.jpg"
+              alt=""
+            />
+            <img
+              className="product-img"
+              src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-4-600x450.jpg"
+              alt=""
+            />
+            <img
+              className="product-img"
+              src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-600x450.jpg"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>

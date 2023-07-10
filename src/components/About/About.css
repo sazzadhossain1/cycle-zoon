@@ -150,16 +150,25 @@
 }
 
 /* About product gallery */
+.about-product-main-parent-container-div {
+  background-color: black;
+}
 .about-product-parent-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: black;
   padding: 60px;
   align-items: center;
+  width: 80%;
+  margin: auto;
+  gap: 25px;
+}
+.about-product-text-div {
+  text-align: left;
 }
 .gallery-title {
   color: red;
   font-size: 25px;
+  margin-bottom: 20px;
 }
 .about-cycle-zoon-gallery-heading {
   color: white;
@@ -172,7 +181,7 @@
   border-radius: 10px;
   font-size: 18px;
   font-weight: 500;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 .view-more:hover {
@@ -182,8 +191,11 @@
 }
 .about-product-gallery-img-div {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  gap: 20px;
 }
+
 /* responsive start */
 
 /* first part */
