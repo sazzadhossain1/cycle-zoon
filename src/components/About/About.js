@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -113,6 +114,42 @@ const About = () => {
               fugiat.
             </p>
           </div>
+        </div>
+      </div>
+      {/* product gallery */}
+      <div>
+        <div>
+          <h3>PRODUCT GALLERY</h3>
+          <h2>Cycle ZzOon IMAGE GRID GALLERY</h2>
+          <button>
+            <Link>View More</Link>
+          </button>
+        </div>
+        <div>
+          <img
+            src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-600x450.jpg"
+            alt=""
+          />
+          <img
+            src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-6-600x450.jpg"
+            alt=""
+          />
+          <img
+            src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-5-600x450.jpg"
+            alt=""
+          />
+          <img
+            src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-3-600x450.jpg"
+            alt=""
+          />
+          <img
+            src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-4-600x450.jpg"
+            alt=""
+          />
+          <img
+            src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-tall-3-600x810.jpg"
+            alt=""
+          />
         </div>
       </div>
     </div>
