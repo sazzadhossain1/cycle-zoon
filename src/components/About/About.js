@@ -80,7 +80,7 @@ const About = () => {
       <div>
         <h1 className="our-powerful-header">Our Powerful Features</h1>
         <div className="about-powerful-grid-div">
-          <div>
+          <div className="about-powerful-single-img-text-div">
             <h3 className="features-title">POWERFUL FEATURES</h3>
             <h2 className="powerful-cycle-header">Cycle ZzOoN MAKES IT EASY</h2>
             <p className="powerful-paragraph">
@@ -105,7 +105,7 @@ const About = () => {
               alt=""
             />
           </div>
-          <div>
+          <div className="about-powerful-single-img-text-div">
             <h3 className="features-title">OPTIMIZED PERFORMANCE</h3>
             <h2 className="powerful-cycle-header">STAND OUT</h2>
             <p className="powerful-paragraph">

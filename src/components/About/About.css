@@ -240,9 +240,36 @@
   }
 }
 
-/*  */
+/* about Our powerful product  */
 @media screen and (max-width: 950px) {
   .about-powerful-grid-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .about-powerful-grid-div {
+    width: 100%;
+    padding: 10px;
+  }
+  .about-powerful-img {
+    width: 100%;
+  }
+}
+
+/* Product gallery */
+@media screen and (max-width: 1024px) {
+  .about-product-parent-gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 550px) {
+  .about-product-parent-gallery {
+    width: 100%;
+  }
+  .about-product-gallery-img-div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
