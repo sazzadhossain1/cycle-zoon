@@ -125,7 +125,7 @@ const About = () => {
               Cycle ZzOon IMAGE GRID GALLERY
             </h2>
             <button className="view-more">
-              <Link>View More</Link>
+              <Link to="/viewMore">View More</Link>
             </button>
           </div>
           <div className="about-product-gallery-img-div">

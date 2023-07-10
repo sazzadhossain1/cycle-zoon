@@ -10,6 +10,7 @@ import Contact from "./components/Contact/Contact";
 import Login from "./components/Login/Login";
 import SignUp from "./components/SignUp/SignUp";
 import DiscoverDetailsPage from "./components/DiscoverDetailsPage/DiscoverDetailsPage";
+import ViewMore from "./components/ViewMore/ViewMore";
 
 function App() {
   const router = createBrowserRouter([
@@ -50,6 +51,10 @@ function App() {
         {
           path: "/contact",
           element: <Contact></Contact>,
+        },
+        {
+          path: "/viewMore",
+          element: <ViewMore></ViewMore>,
         },
 
         {
