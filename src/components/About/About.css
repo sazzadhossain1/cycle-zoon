@@ -173,6 +173,8 @@
 .about-cycle-zoon-gallery-heading {
   color: white;
   font-size: 40px;
+  font-style: italic;
+  font-weight: 500;
 }
 .view-more {
   background-color: white;
@@ -235,5 +237,13 @@
   .about-second-text-div {
     width: 100%;
     margin-left: 50px;
+  }
+}
+
+/*  */
+@media screen and (max-width: 950px) {
+  .about-powerful-grid-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
