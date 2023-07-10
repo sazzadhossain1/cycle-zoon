@@ -119,13 +119,15 @@ const About = () => {
       {/* product gallery */}
       <div className="about-product-parent-gallery">
         <div>
-          <h3>PRODUCT GALLERY</h3>
-          <h2>Cycle ZzOon IMAGE GRID GALLERY</h2>
-          <button>
+          <h3 className="gallery-title">PRODUCT GALLERY</h3>
+          <h2 className="about-cycle-zoon-gallery-heading">
+            Cycle ZzOon IMAGE GRID GALLERY
+          </h2>
+          <button className="view-more">
             <Link>View More</Link>
           </button>
         </div>
-        <div>
+        <div className="about-product-gallery-img-div">
           <img
             src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-600x450.jpg"
             alt=""
@@ -147,7 +149,7 @@ const About = () => {
             alt=""
           />
           <img
-            src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-tall-3-600x810.jpg"
+            src="https://149357172.v2.pressablecdn.com/wp-content/uploads/2017/07/image-600x450.jpg"
             alt=""
           />
         </div>

@@ -154,6 +154,35 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-color: black;
+  padding: 60px;
+  align-items: center;
+}
+.gallery-title {
+  color: red;
+  font-size: 25px;
+}
+.about-cycle-zoon-gallery-heading {
+  color: white;
+  font-size: 40px;
+}
+.view-more {
+  background-color: white;
+  padding: 5px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.view-more:hover {
+  background-color: red;
+  color: white;
+  transition: 0.9s;
+}
+.about-product-gallery-img-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 /* responsive start */
 
