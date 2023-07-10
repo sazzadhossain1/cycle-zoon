@@ -1,3 +1,19 @@
+.view-main-parent-div {
+  background-color: rgb(8, 1, 26);
+}
 .gallery {
   font-size: 80px;
+}
+.viewMore-img {
+  width: 400px;
+  height: 300px;
+}
+
+.view-more-img-grid-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  margin: auto;
+  padding: 100px;
+  gap: 20px;
 }
