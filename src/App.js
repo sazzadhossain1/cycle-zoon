@@ -38,6 +38,9 @@ function App() {
         },
         {
           path: "/shop",
+          loader: () => {
+            return fetch("shop.json");
+          },
           element: <Shop></Shop>,
         },
         {
