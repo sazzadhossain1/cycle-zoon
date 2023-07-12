@@ -1,6 +1,6 @@
 import React from "react";
 import "./News.css";
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import NewsDetail from "../NewsDetails/NewsDetail";
 
 const News = () => {
@@ -50,20 +50,25 @@ const News = () => {
             </div>
           </div>
           {/*  */}
-          <div>
-            <h2>RECENT NEWS</h2>
-            <div></div>
+          <div className="recent-div">
+            <h2 className="recent-news">RECENT NEWS</h2>
+            <div className="news-blank-div"></div>
 
-            <div>
-              <img
-                className="newsLogo-img"
-                src="https://w7.pngwing.com/pngs/669/871/png-transparent-document-book-page-line-book-text-paper-page.png"
-                alt=""
-              />
-              <div>
-                <p>DownHill: Taking Ride in Mountains</p>
-                <p>JUly 5, 2017</p>
+            <div className="recent-flex-parent-div">
+              <div className="recent-flex-div">
+                <img
+                  className="newsLogo-img"
+                  src="https://w7.pngwing.com/pngs/669/871/png-transparent-document-book-page-line-book-text-paper-page.png"
+                  alt=""
+                />
+                <Link>
+                  <p className="recent-link">
+                    DownHill: Taking Ride in Mountains
+                  </p>
+                </Link>
               </div>
+              <p className="recent-date">JUly 5, 2017</p>
+              <div className="recent-blank-div"></div>
             </div>
           </div>
         </div>

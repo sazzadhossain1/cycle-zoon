@@ -16,10 +16,39 @@
 .news-blank-div {
   height: 2px;
   width: 50px;
-  background-color: black;
+  background-color: rgb(128, 128, 128);
   margin-bottom: 20px;
 }
 
+.recent-div {
+  text-align: left;
+}
+.recent-news {
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+.recent-flex-parent-div {
+}
+.recent-flex-div {
+  display: flex;
+  align-items: center;
+}
 .newsLogo-img {
   width: 15px;
+  height: 16px;
+  margin-right: 10px;
+}
+.recent-link {
+  color: blue;
+  text-decoration: underline;
+}
+.recent-date {
+  margin-left: 25px;
+}
+.recent-blank-div {
+  height: 2px;
+  width: 300px;
+  background-color: gainsboro;
+  margin-top: 20px;
 }
