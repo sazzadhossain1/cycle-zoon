@@ -1,7 +1,25 @@
 .news-grid-div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
 }
+.news-parent-div {
+  margin-bottom: 50px;
+}
+.news-search-div {
+  text-align: left;
+}
+.search {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.news-blank-div {
+  height: 2px;
+  width: 50px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
 .newsLogo-img {
   width: 15px;
 }
