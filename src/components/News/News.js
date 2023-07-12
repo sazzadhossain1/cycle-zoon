@@ -125,41 +125,53 @@ const News = () => {
             <div className="news-blank-div"></div>
 
             <div className="archives-flex-div">
-              <img
-                className="arrow"
-                src="https://icons.veryicon.com/png/o/commerce-shopping/online-retailers/arrow-right-32.png"
-                alt=""
-              />
-              <p>July 2017</p>
-              <p>1</p>
+              <div className="img-date-flex-div">
+                <img
+                  className="arrow"
+                  src="https://icons.veryicon.com/png/o/commerce-shopping/online-retailers/arrow-right-32.png"
+                  alt=""
+                />
+                <p className="archives-text">July 2017</p>
+              </div>
+              <p className="archives-number">1</p>
             </div>
+            <div className="archives-blank-div"></div>
             <div className="archives-flex-div">
-              <img
-                className="arrow"
-                src="https://icons.veryicon.com/png/o/commerce-shopping/online-retailers/arrow-right-32.png"
-                alt=""
-              />
-              <p>July 2017</p>
-              <p>1</p>
+              <div className="img-date-flex-div">
+                <img
+                  className="arrow"
+                  src="https://icons.veryicon.com/png/o/commerce-shopping/online-retailers/arrow-right-32.png"
+                  alt=""
+                />
+                <p className="archives-text">June 2017</p>
+              </div>
+              <p className="archives-number">1</p>
             </div>
+            <div className="archives-blank-div"></div>
             <div className="archives-flex-div">
-              <img
-                className="arrow"
-                src="https://icons.veryicon.com/png/o/commerce-shopping/online-retailers/arrow-right-32.png"
-                alt=""
-              />
-              <p>July 2017</p>
-              <p>1</p>
+              <div className="img-date-flex-div">
+                <img
+                  className="arrow"
+                  src="https://icons.veryicon.com/png/o/commerce-shopping/online-retailers/arrow-right-32.png"
+                  alt=""
+                />
+                <p className="archives-text">May 2017</p>
+              </div>
+              <p className="archives-number">1</p>
             </div>
+            <div className="archives-blank-div"></div>
             <div className="archives-flex-div">
-              <img
-                className="arrow"
-                src="https://icons.veryicon.com/png/o/commerce-shopping/online-retailers/arrow-right-32.png"
-                alt=""
-              />
-              <p>July 2017</p>
-              <p>1</p>
+              <div className="img-date-flex-div">
+                <img
+                  className="arrow"
+                  src="https://icons.veryicon.com/png/o/commerce-shopping/online-retailers/arrow-right-32.png"
+                  alt=""
+                />
+                <p className="archives-text">March 2017</p>
+              </div>
+              <p className="archives-number">1</p>
             </div>
+            <div className="archives-blank-div"></div>
           </div>
         </div>
       </div>
