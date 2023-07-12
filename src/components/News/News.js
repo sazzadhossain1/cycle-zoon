@@ -70,6 +70,54 @@ const News = () => {
               <p className="recent-date">JUly 5, 2017</p>
               <div className="recent-blank-div"></div>
             </div>
+            <div className="recent-flex-parent-div">
+              <div className="recent-flex-div">
+                <img
+                  className="newsLogo-img"
+                  src="https://w7.pngwing.com/pngs/669/871/png-transparent-document-book-page-line-book-text-paper-page.png"
+                  alt=""
+                />
+                <Link>
+                  <p className="recent-link">
+                    DownHill: Taking Ride in Mountains
+                  </p>
+                </Link>
+              </div>
+              <p className="recent-date">JUly 5, 2017</p>
+              <div className="recent-blank-div"></div>
+            </div>
+            <div className="recent-flex-parent-div">
+              <div className="recent-flex-div">
+                <img
+                  className="newsLogo-img"
+                  src="https://w7.pngwing.com/pngs/669/871/png-transparent-document-book-page-line-book-text-paper-page.png"
+                  alt=""
+                />
+                <Link>
+                  <p className="recent-link">
+                    DownHill: Taking Ride in Mountains
+                  </p>
+                </Link>
+              </div>
+              <p className="recent-date">JUly 5, 2017</p>
+              <div className="recent-blank-div"></div>
+            </div>
+            <div className="recent-flex-parent-div">
+              <div className="recent-flex-div">
+                <img
+                  className="newsLogo-img"
+                  src="https://w7.pngwing.com/pngs/669/871/png-transparent-document-book-page-line-book-text-paper-page.png"
+                  alt=""
+                />
+                <Link>
+                  <p className="recent-link">
+                    DownHill: Taking Ride in Mountains
+                  </p>
+                </Link>
+              </div>
+              <p className="recent-date">JUly 5, 2017</p>
+              <div className="recent-blank-div"></div>
+            </div>
           </div>
         </div>
       </div>
