@@ -124,7 +124,7 @@ const News = () => {
             <h3>ARCHIVES</h3>
             <div className="news-blank-div"></div>
 
-            <div>
+            <div className="archives-flex-div">
               <img
                 className="arrow"
                 src="https://icons.veryicon.com/png/o/commerce-shopping/online-retailers/arrow-right-32.png"
@@ -133,7 +133,7 @@ const News = () => {
               <p>July 2017</p>
               <p>1</p>
             </div>
-            <div>
+            <div className="archives-flex-div">
               <img
                 className="arrow"
                 src="https://icons.veryicon.com/png/o/commerce-shopping/online-retailers/arrow-right-32.png"
@@ -142,7 +142,7 @@ const News = () => {
               <p>July 2017</p>
               <p>1</p>
             </div>
-            <div>
+            <div className="archives-flex-div">
               <img
                 className="arrow"
                 src="https://icons.veryicon.com/png/o/commerce-shopping/online-retailers/arrow-right-32.png"
@@ -151,7 +151,7 @@ const News = () => {
               <p>July 2017</p>
               <p>1</p>
             </div>
-            <div>
+            <div className="archives-flex-div">
               <img
                 className="arrow"
                 src="https://icons.veryicon.com/png/o/commerce-shopping/online-retailers/arrow-right-32.png"

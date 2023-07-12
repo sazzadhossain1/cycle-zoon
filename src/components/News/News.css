@@ -58,7 +58,17 @@
   margin-bottom: 20px;
 }
 
-/*  */
+/* ARCHIVES */
 .archives-parent-div {
   text-align: left;
+  padding: 10px;
+}
+
+.archives-flex-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow {
+  width: 15px;
 }
