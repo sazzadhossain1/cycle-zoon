@@ -49,6 +49,9 @@ function App() {
         },
         {
           path: "/news",
+          loader: () => {
+            return fetch("news.json");
+          },
           element: <News></News>,
         },
         {
