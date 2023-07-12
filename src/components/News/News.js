@@ -4,7 +4,9 @@ import "./News.css";
 const News = () => {
   return (
     <div>
-      <h1>News</h1>
+      <div className="about-background-parent-div">
+        <h1 className="shop-shop">News</h1>
+      </div>
     </div>
   );
 };
