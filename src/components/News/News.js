@@ -13,13 +13,13 @@ const News = () => {
       </div>
 
       <div className="news-grid-div">
-        <div>
+        <div className="map-parent-div ">
           {newsData.map((data) => (
             <NewsDetail data={data} key={data.id}></NewsDetail>
           ))}
         </div>
         {/*  */}
-        <div>
+        <div className="">
           <div className="news-search-div">
             <h3 className="search">Search</h3>
             <div className="news-blank-div"></div>
@@ -117,6 +117,48 @@ const News = () => {
               </div>
               <p className="recent-date">JUly 5, 2017</p>
               <div className="recent-blank-div"></div>
+            </div>
+          </div>
+          {/*  */}
+          <div className="archives-parent-div">
+            <h3>ARCHIVES</h3>
+            <div className="news-blank-div"></div>
+
+            <div>
+              <img
+                className="arrow"
+                src="https://icons.veryicon.com/png/o/commerce-shopping/online-retailers/arrow-right-32.png"
+                alt=""
+              />
+              <p>July 2017</p>
+              <p>1</p>
+            </div>
+            <div>
+              <img
+                className="arrow"
+                src="https://icons.veryicon.com/png/o/commerce-shopping/online-retailers/arrow-right-32.png"
+                alt=""
+              />
+              <p>July 2017</p>
+              <p>1</p>
+            </div>
+            <div>
+              <img
+                className="arrow"
+                src="https://icons.veryicon.com/png/o/commerce-shopping/online-retailers/arrow-right-32.png"
+                alt=""
+              />
+              <p>July 2017</p>
+              <p>1</p>
+            </div>
+            <div>
+              <img
+                className="arrow"
+                src="https://icons.veryicon.com/png/o/commerce-shopping/online-retailers/arrow-right-32.png"
+                alt=""
+              />
+              <p>July 2017</p>
+              <p>1</p>
             </div>
           </div>
         </div>

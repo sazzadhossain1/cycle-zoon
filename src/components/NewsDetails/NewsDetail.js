@@ -4,7 +4,7 @@ const NewsDetail = ({ data }) => {
   console.log(data);
   const { img, title, date, paragraphOne } = data;
   return (
-    <div>
+    <div className="">
       <img src={img} alt="" />
       <h3>{title}</h3>
       <p>{date}</p>

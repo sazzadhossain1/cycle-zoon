@@ -1,7 +1,11 @@
 .news-grid-div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 50px;
+  width: 75%;
+  margin-left: auto;
+  gap: 50px;
+}
+.map-parent-div {
 }
 .news-parent-div {
   margin-bottom: 50px;
@@ -51,4 +55,10 @@
   width: 300px;
   background-color: gainsboro;
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*  */
+.archives-parent-div {
+  text-align: left;
 }
