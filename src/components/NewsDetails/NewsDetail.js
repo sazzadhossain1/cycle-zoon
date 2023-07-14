@@ -6,9 +6,9 @@ const NewsDetail = ({ data }) => {
   return (
     <div className="newsDetails-parent-div">
       <img src={img} alt="" />
-      <h3>{title}</h3>
-      <p>{date}</p>
-      <p>{paragraphOne}</p>
+      <h3 className="title">{title}</h3>
+      <p className="date">{date}</p>
+      <p className="paragraphOne">{paragraphOne}</p>
     </div>
   );
 };
