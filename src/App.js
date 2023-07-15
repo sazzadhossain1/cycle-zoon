@@ -50,7 +50,7 @@ function App() {
         {
           path: "/news",
           loader: () => {
-            return fetch("news.json");
+            return fetch("https://cycle-zoon-two-server.vercel.app/newsData");
           },
           element: <News></News>,
         },
