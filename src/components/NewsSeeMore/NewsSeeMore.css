@@ -10,6 +10,17 @@
 }
 .text-img-div {
   text-align: left;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  margin-bottom: 50px;
 }
-.right-div {
+.left-border {
+  border-left: 2px solid red;
+  padding: 10px;
+}
+.text-img-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding: 10px;
 }
