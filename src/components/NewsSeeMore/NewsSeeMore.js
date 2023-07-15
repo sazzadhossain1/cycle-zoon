@@ -28,6 +28,16 @@ const NewsSeeMore = () => {
       <div className="newsSeeMore-grid-div">
         <div className="text-img-div">
           <img src={img} alt="" />
+          <h3>{title}</h3>
+          <p>{date}</p>
+          <p>{paragraphOne}</p>
+          <p>{paragraphTwo}</p>
+          <p>{paragraphThree}</p>
+          <div>
+            <p>{paragraphFour}</p>
+            <img src={smallimg} alt="" />
+          </div>
+          <p>{paragraphFive}</p>
         </div>
         <div className="right-div">
           <NewsRightSiteNav></NewsRightSiteNav>
