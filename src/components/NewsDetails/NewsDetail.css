@@ -14,3 +14,23 @@
   font-size: 25px;
   margin: 20px;
 }
+.date {
+  font-size: 15px;
+  margin: 20px;
+  color: rgb(173, 172, 172);
+}
+.paragraphOne {
+  margin: 20px;
+  line-height: 25px;
+}
+.see-more-btn {
+  margin: 20px;
+  color: red;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 1150px) {
+  .newsDetails-img {
+    width: 100%;
+  }
+}

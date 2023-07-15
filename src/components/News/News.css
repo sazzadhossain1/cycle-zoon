@@ -98,3 +98,14 @@
   text-align: center;
   font-weight: 500;
 }
+
+/* Responsiveness */
+@media screen and (max-width: 1150px) {
+  .news-grid-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 0;
+    width: 100%;
+    padding: 15px;
+  }
+}
