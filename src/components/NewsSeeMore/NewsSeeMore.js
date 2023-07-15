@@ -22,11 +22,14 @@ const NewsSeeMore = () => {
   console.log(img);
   return (
     <div>
+      <div className="about-background-parent-div newsSeeMore-parent-div">
+        <h1 className="shop-shop">News</h1>
+      </div>
       <div className="newsSeeMore-grid-div">
-        <div>
+        <div className="text-img-div">
           <img src={img} alt="" />
         </div>
-        <div>
+        <div className="right-div">
           <NewsRightSiteNav></NewsRightSiteNav>
         </div>
       </div>

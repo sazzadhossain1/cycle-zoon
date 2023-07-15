@@ -1,4 +1,14 @@
+.newsSeeMore-parent-div {
+  margin-bottom: 50px;
+}
 .newsSeeMore-grid-div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  width: 80%;
+  gap: 50px;
+  margin-left: auto;
+}
+.text-img-div {
+}
+.right-div {
 }
