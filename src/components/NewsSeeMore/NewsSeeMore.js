@@ -1,5 +1,5 @@
 import React from "react";
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import NewsRightSiteNav from "../NewsRightSiteNav/NewsRightSiteNav";
 import "./NewsSeeMore.css";
 
@@ -38,6 +38,9 @@ const NewsSeeMore = () => {
             <img className="smallImg" src={smallimg} alt="" />
           </div>
           <p className="paragraphOne">{paragraphFive}</p>
+          <button className="newsBtn">
+            <Link to="/news">Go Back To News</Link>
+          </button>
         </div>
         <div className="right-div">
           <NewsRightSiteNav></NewsRightSiteNav>

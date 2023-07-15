@@ -13,6 +13,7 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
   margin-bottom: 50px;
+  position: relative;
 }
 .left-border {
   border-left: 2px solid red;
@@ -23,6 +24,15 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   padding: 10px;
+}
+
+/* responsive start */
+.newsBtn {
+  background-color: red;
+  padding: 10px;
+  position: relative;
+  margin-bottom: -10px;
+  margin-left: -10px;
 }
 
 @media screen and (max-width: 1200px) {
