@@ -1,9 +1,32 @@
 import React from "react";
+import { useLoaderData } from "react-router-dom";
+import NewsRightSiteNav from "../NewsRightSiteNav/NewsRightSiteNav";
 
 const NewsSeeMore = () => {
+  const getSeeMoreData = useLoaderData();
+  console.log(getSeeMoreData);
+
+  const {
+    img,
+    title,
+    date,
+    paragraphOne,
+    paragraphTwo,
+    paragraphThree,
+    paragraphFour,
+    paragraphFive,
+    paragraphSix,
+    smallimg,
+  } = getSeeMoreData;
+  console.log(img);
   return (
     <div>
-      <h1>This is NewsSeeMore</h1>
+      <div>
+        <div></div>
+        <div>
+          <NewsRightSiteNav></NewsRightSiteNav>
+        </div>
+      </div>
     </div>
   );
 };

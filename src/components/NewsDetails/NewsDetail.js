@@ -10,7 +10,7 @@ const NewsDetail = ({ data }) => {
       <h3 className="title">{title}</h3>
       <p className="date">{date}</p>
       <p className="paragraphOne">{paragraphOne}</p>
-      <Link to={`newsData/${id}`}>
+      <Link to={`/newsSeeMore/${id}`}>
         <button className="see-more-btn">See More </button>
       </Link>
     </div>
