@@ -3,3 +3,33 @@
   font-size: 60px;
   font-weight: 500;
 }
+
+.shop-parent-grid-div {
+}
+.shop-child-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 75%;
+  margin: auto;
+  align-items: center;
+}
+.color-1 {
+  background-color: rgba(243, 243, 243, 0.466);
+}
+.color-2 {
+  background-color: rgb(255, 24, 24);
+}
+.color-3 {
+  background-color: black;
+}
+
+.shop-img {
+  width: 650px;
+}
+.shop-text-div {
+  text-align: left;
+}
+.cycleZoon {
+  font-size: 35px;
+  font-weight: 500;
+}
