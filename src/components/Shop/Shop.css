@@ -72,3 +72,22 @@
   background-color: red;
   transition: 1s;
 }
+
+@media screen and (max-width: 1300px) {
+  .shop-child-grid-div {
+  }
+  .shop-text-div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .shop-child-grid-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 500px) {
+  .shop-btn {
+    width: 100%;
+  }
+}
