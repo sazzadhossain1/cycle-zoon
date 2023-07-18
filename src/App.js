@@ -40,7 +40,7 @@ function App() {
         {
           path: "/shop",
           loader: () => {
-            return fetch("shop.json");
+            return fetch("accessories.json");
           },
           element: <Shop></Shop>,
         },

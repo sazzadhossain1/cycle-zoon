@@ -1,7 +1,9 @@
 import "./Shop.css";
-import { Link } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 
 const Shop = () => {
+  const getShopApi = useLoaderData();
+  // console.log(getShopApi);
   return (
     <div>
       <div className="about-background-parent-div">
@@ -78,6 +80,10 @@ const Shop = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <h2>ACCESSORIES</h2>
+        <div>{getShopApi.map((data) => console.log(data))}</div>
       </div>
     </div>
   );
