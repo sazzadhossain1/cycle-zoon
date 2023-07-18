@@ -83,8 +83,8 @@ const Shop = () => {
         </div>
       </div>
       <div>
-        <h2>ACCESSORIES</h2>
-        <div>
+        <h2 className="accessories">ACCESSORIES</h2>
+        <div className="accessories-grid-parent-div">
           {getShopApi.map((shopApiData) => (
             <Accessories
               key={shopApiData.id}

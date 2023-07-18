@@ -73,6 +73,23 @@
   transition: 1s;
 }
 
+/* accessories */
+.accessories {
+  font-size: 35px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.accessories-grid-parent-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 60%;
+  margin: auto;
+  gap: 20px;
+}
+
+/* responsive start */
+
 @media screen and (max-width: 1300px) {
   .shop-child-grid-div {
   }
