@@ -152,7 +152,10 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <h1 style={{ color: "greenyellow", marginRight: "100px" }}>
+          <h1
+            className="displayName"
+            style={{ color: "greenyellow", marginRight: "100px" }}
+          >
             {user?.displayName}
           </h1>
           <Link className="shopNow btn ">Shop New</Link>
