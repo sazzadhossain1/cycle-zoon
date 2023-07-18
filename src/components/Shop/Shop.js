@@ -1,3 +1,4 @@
+import Accessories from "../Accessories/Accessories";
 import "./Shop.css";
 import { Link, useLoaderData } from "react-router-dom";
 
@@ -83,7 +84,14 @@ const Shop = () => {
       </div>
       <div>
         <h2>ACCESSORIES</h2>
-        <div>{getShopApi.map((data) => console.log(data))}</div>
+        <div>
+          {getShopApi.map((shopApiData) => (
+            <Accessories
+              key={shopApiData.id}
+              shopApiData={shopApiData}
+            ></Accessories>
+          ))}
+        </div>
       </div>
     </div>
   );

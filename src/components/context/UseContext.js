@@ -51,7 +51,7 @@ const UseContext = ({ children }) => {
   useEffect(() => {
     const unSubScribe = onAuthStateChanged(auth, (currentUser) => {
       if (currentUser !== null) {
-        console.log(currentUser);
+        // console.log(currentUser);
         setUser(currentUser);
       }
     });
