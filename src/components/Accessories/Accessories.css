@@ -1,14 +1,39 @@
 .accessories-div {
   background-color: white;
-
   text-align: left;
+  box-shadow: 10px 20px 15px rgba(0, 0, 0, 0.1);
+
+  margin-bottom: 50px;
 }
+
 .accessories-img {
 }
 .accessories-text-dvi {
-  padding: 5px;
+  padding: 20px;
 }
 .accessories-title {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.accessories-price {
+  color: red;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 .accessories-btn {
+  background-color: rgb(170, 169, 169);
+  padding: 10px;
+  font-weight: 500;
+  width: 100%;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.accessories-btn:hover {
+  background-color: red;
+  color: white;
+  transition: 0.5s;
 }

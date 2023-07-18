@@ -77,15 +77,14 @@
 .accessories {
   font-size: 35px;
   margin-top: 70px;
-  margin-bottom: 20px;
-  font-weight: 500;
+  margin-bottom: 30px;
 }
 .accessories-grid-parent-div {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 60%;
+  width: 65%;
   margin: auto;
-  gap: 20px;
+  gap: 40px;
 }
 
 /* responsive start */
@@ -106,5 +105,19 @@
 @media screen and (max-width: 500px) {
   .shop-btn {
     width: 100%;
+  }
+}
+
+/* Accessories */
+@media screen and (max-width: 1100px) {
+  .accessories-grid-parent-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 700px) {
+  .accessories-grid-parent-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
