@@ -1,0 +1,21 @@
+.accessories-grid-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 65%;
+  margin: auto;
+  padding-top: 50px;
+  gap: 20px;
+}
+.accessories-text-div {
+  text-align: left;
+}
+.accessories-description {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 950px) {
+  .accessories-grid-div {
+    width: 100%;
+  }
+}
