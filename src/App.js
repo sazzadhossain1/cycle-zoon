@@ -12,6 +12,7 @@ import SignUp from "./components/SignUp/SignUp";
 import DiscoverDetailsPage from "./components/DiscoverDetailsPage/DiscoverDetailsPage";
 import ViewMore from "./components/ViewMore/ViewMore";
 import NewsSeeMore from "./components/NewsSeeMore/NewsSeeMore";
+import AccessoriesDetails from "./components/AccessoriesDetails/AccessoriesDetails";
 
 function App() {
   const router = createBrowserRouter([
@@ -83,6 +84,17 @@ function App() {
           },
           element: <DiscoverDetailsPage></DiscoverDetailsPage>,
         },
+
+        {
+          path: "/accessoriesDetails/:id",
+          loader: async ({ params }) => {
+            return fetch(
+              `https://cycle-zoon-two-server.vercel.app/accessoriesData/${params.id}`
+            );
+          },
+          element: <AccessoriesDetails></AccessoriesDetails>,
+        },
+
         {
           path: "/newsSeeMore/:id",
           loader: async ({ params }) => {

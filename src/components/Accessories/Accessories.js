@@ -3,7 +3,7 @@ import "./Accessories.css";
 import { Link } from "react-router-dom";
 
 const Accessories = ({ shopApiData }) => {
-  const { img, title, price } = shopApiData;
+  const { img, title, price, id } = shopApiData;
   console.log(img, title, price);
 
   return (
@@ -13,7 +13,7 @@ const Accessories = ({ shopApiData }) => {
         <h3 className="accessories-title">{title}</h3>
         <p className="accessories-price">{price}</p>
         <button className="accessories-btn">
-          <Link>Select Options</Link>
+          <Link to={`/accessoriesDetails/${id}`}>Select Options</Link>
         </button>
       </div>
     </div>
