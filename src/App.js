@@ -40,7 +40,9 @@ function App() {
         {
           path: "/shop",
           loader: () => {
-            return fetch("accessories.json");
+            return fetch(
+              "https://cycle-zoon-two-server.vercel.app/accessoriesData"
+            );
           },
           element: <Shop></Shop>,
         },
