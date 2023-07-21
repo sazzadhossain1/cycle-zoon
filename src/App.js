@@ -63,10 +63,7 @@ function App() {
           },
           element: <News></News>,
         },
-        {
-          path: "/contact",
-          element: <Contact></Contact>,
-        },
+
         {
           path: "/viewMore",
           element: <ViewMore></ViewMore>,

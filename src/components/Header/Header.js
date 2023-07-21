@@ -64,11 +64,6 @@ const Header = () => {
                   News
                 </Link>
               </li>
-              <li>
-                <Link className="color" to="/contact">
-                  Contact
-                </Link>
-              </li>
 
               {user?.uid ? (
                 <button onClick={handleLogOUt} className="color">
@@ -122,11 +117,6 @@ const Header = () => {
             <li>
               <Link className="color" to="/news">
                 News
-              </Link>
-            </li>
-            <li>
-              <Link className="color" to="/contact">
-                Contact
               </Link>
             </li>
 
