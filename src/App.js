@@ -13,6 +13,7 @@ import DiscoverDetailsPage from "./components/DiscoverDetailsPage/DiscoverDetail
 import ViewMore from "./components/ViewMore/ViewMore";
 import NewsSeeMore from "./components/NewsSeeMore/NewsSeeMore";
 import AccessoriesDetails from "./components/AccessoriesDetails/AccessoriesDetails";
+import PrivateRoute from "./PrivateRoute/PrivateRoute";
 
 function App() {
   const router = createBrowserRouter([
@@ -45,7 +46,11 @@ function App() {
               "https://cycle-zoon-two-server.vercel.app/accessoriesData"
             );
           },
-          element: <Shop></Shop>,
+          element: (
+            <PrivateRoute>
+              <Shop></Shop>
+            </PrivateRoute>
+          ),
         },
         {
           path: "/gallery",
